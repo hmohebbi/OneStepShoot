@@ -1,0 +1,24 @@
+#! /bin/bash
+
+rm -rf LIB &&
+
+here=$(pwd) &&
+
+mkdir LIB &&
+
+cd LibTeam &&
+
+./configure --prefix=$here/LIB &&
+
+make -j5 &&
+
+make install &&
+
+cd ../yourTeam &&
+
+./configure --with-librcsc=$here/LIB &&
+
+make -j5
+
+
+

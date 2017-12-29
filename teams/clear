@@ -1,0 +1,11 @@
+#! /bin/sh
+
+rm -rf ./LIB
+
+cd yourTeam
+make clean
+make distclean
+cd ../LibTeam
+make clean
+make distclean
+

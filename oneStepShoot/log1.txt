@@ -1,0 +1,1084 @@
+reza@reza:~/sim/Shoot1Zarb$ ./challengeSet 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for cos in -lm... yes
+checking for deflate in -lz... no
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inline... inline
+checking for an ANSI C-conforming const... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for error_at_line... yes
+checking for memset... yes
+checking for rint... yes
+checking for strtol... yes
+checking for pow... yes
+checking for sqrt... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for boostlib >= 1.32.0... configure: We could not detect the boost libraries (version 1.32 or higher). If you have a staged boost library (still not installed) please specify $BOOST_ROOT in your environment and do not give a PATH to --with-boost option.  If you are sure you have boost installed, then check your version number looking in <boost/version.hpp>. See http://randspringer.de/boost for more documentation.
+checking whether the Boost::System library is available... no
+checking whether the Boost::Program_Options library is available... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+configure: set QT4_REQUIRED_VERSION... 4.3.0
+configure: set QT4_REQUIRED_MODULES... QtCore QtGui QtNetwork
+checking for pkg-config... /usr/bin/pkg-config
+configure: check QtCore >= 4.3.0
+checking for Qt4... no
+configure: error: The QtCore library >= 4.3.0 could not be found.
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get update
+...
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get install libboost1.58-dev
+...
+reza@reza:~/sim/Shoot1Zarb$ ./challengeSet 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for cos in -lm... yes
+checking for deflate in -lz... no
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inline... inline
+checking for an ANSI C-conforming const... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for error_at_line... yes
+checking for memset... yes
+checking for rint... yes
+checking for strtol... yes
+checking for pow... yes
+checking for sqrt... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for boostlib >= 1.32.0... yes
+checking whether the Boost::System library is available... yes
+checking for exit in -lboost_system... no
+configure: error: Could not link against boost_system !
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get install libboost-system-dev
+...
+reza@reza:~/sim/Shoot1Zarb$ ./challengeSet 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for cos in -lm... yes
+checking for deflate in -lz... no
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inline... inline
+checking for an ANSI C-conforming const... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for error_at_line... yes
+checking for memset... yes
+checking for rint... yes
+checking for strtol... yes
+checking for pow... yes
+checking for sqrt... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for boostlib >= 1.32.0... yes
+checking whether the Boost::System library is available... yes
+checking for exit in -lboost_system... yes
+checking whether the Boost::Program_Options library is available... yes
+configure: error: Could not link against boost_system !
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get install libboost-program-options-dev 
+...
+reza@reza:~/sim/Shoot1Zarb$ ./challengeSet 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for cos in -lm... yes
+checking for deflate in -lz... no
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inline... inline
+checking for an ANSI C-conforming const... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for error_at_line... yes
+checking for memset... yes
+checking for rint... yes
+checking for strtol... yes
+checking for pow... yes
+checking for sqrt... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for boostlib >= 1.32.0... yes
+checking whether the Boost::System library is available... yes
+checking for exit in -lboost_system... yes
+checking whether the Boost::Program_Options library is available... yes
+checking for exit in -lboost_program_options... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+configure: set QT4_REQUIRED_VERSION... 4.3.0
+configure: set QT4_REQUIRED_MODULES... QtCore QtGui QtNetwork
+checking for pkg-config... /usr/bin/pkg-config
+configure: check QtCore >= 4.3.0
+checking for Qt4... no
+configure: error: The QtCore library >= 4.3.0 could not be found.
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get install libqt4-dev
+...
+reza@reza:~/sim/Shoot1Zarb$ ./challengeSet 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for cos in -lm... yes
+checking for deflate in -lz... no
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inline... inline
+checking for an ANSI C-conforming const... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for error_at_line... yes
+checking for memset... yes
+checking for rint... yes
+checking for strtol... yes
+checking for pow... yes
+checking for sqrt... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for boostlib >= 1.32.0... yes
+checking whether the Boost::System library is available... yes
+checking for exit in -lboost_system... yes
+checking whether the Boost::Program_Options library is available... yes
+checking for exit in -lboost_program_options... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+configure: set QT4_REQUIRED_VERSION... 4.3.0
+configure: set QT4_REQUIRED_MODULES... QtCore QtGui QtNetwork
+checking for pkg-config... /usr/bin/pkg-config
+configure: check QtCore >= 4.3.0
+checking for Qt4... yes
+configure: check QtGui >= 4.3.0
+checking for Qt4... yes
+configure: check QtNetwork >= 4.3.0
+checking for Qt4... yes
+configure: set QT4_CXXFLAGS... -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore
+configure: set QT4_LDFLAGS... -L/usr/X11R6/lib64
+configure: set QT4_LDADD... -pthread -lQtGui -lQtCore -lfontconfig -lpthread -laudio -lXt -lgthread-2.0 -lglib-2.0 -lpng -lz -lfreetype -lgobject-2.0 -lglib-2.0 -lSM -lICE -lXi -lXrender -lfontconfig -lfreetype -lXext -lX11 -lm -lQtNetwork -lQtCore -lfontconfig -lpthread -lz -lQtCore -lfontconfig -lpthread -lz -lm -ldl -lgthread-2.0 -lglib-2.0 -lrt
+configure: set QT4_MOC... /usr/share/qt4/bin/moc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+(CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /home/reza/sim/Shoot1Zarb/monitor/missing autoheader)
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/bash ./config.status config.h
+config.status: creating config.h
+config.status: config.h is unchanged
+make  all-recursive
+make[1]: Entering directory '/home/reza/sim/Shoot1Zarb/monitor'
+Making all in src
+make[2]: Entering directory '/home/reza/sim/Shoot1Zarb/monitor/src'
+g++ -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -L/usr/X11R6/lib64 -L/usr/lib/x86_64-linux-gnu -o rcssmonitor rcsslogplayer/rcssmonitor-parser.o rcsslogplayer/rcssmonitor-types.o rcsslogplayer/rcssmonitor-util.o rcssmonitor-angle_deg.o rcssmonitor-ball_painter.o rcssmonitor-circle_2d.o rcssmonitor-config_dialog.o rcssmonitor-disp_holder.o rcssmonitor-draw_info_painter.o rcssmonitor-field_canvas.o rcssmonitor-field_painter.o rcssmonitor-line_2d.o rcssmonitor-log_player.o rcssmonitor-main_window.o rcssmonitor-monitor_client.o rcssmonitor-options.o rcssmonitor-player_painter.o rcssmonitor-player_type_dialog.o rcssmonitor-score_board_painter.o rcssmonitor-team_graphic.o rcssmonitor-team_graphic_painter.o rcssmonitor-vector_2d.o rcssmonitor-main.o rcssmonitor-moc_config_dialog.o rcssmonitor-moc_field_canvas.o rcssmonitor-moc_log_player.o rcssmonitor-moc_main_window.o rcssmonitor-moc_monitor_client.o rcssmonitor-moc_player_type_dialog.o -lboost_program_options -pthread -lQtGui -lQtCore -lfontconfig -lpthread -laudio -lXt -lgthread-2.0 -lglib-2.0 -lpng -lz -lfreetype -lgobject-2.0 -lglib-2.0 -lSM -lICE -lXi -lXrender -lfontconfig -lfreetype -lXext -lX11 -lm -lQtNetwork -lQtCore -lfontconfig -lpthread -lz -lQtCore -lfontconfig -lpthread -lz -lm -ldl -lgthread-2.0 -lglib-2.0 -lrt -lm 
+/usr/bin/ld: cannot find -lfontconfig
+collect2: error: ld returned 1 exit status
+Makefile:488: recipe for target 'rcssmonitor' failed
+make[2]: *** [rcssmonitor] Error 1
+make[2]: Leaving directory '/home/reza/sim/Shoot1Zarb/monitor/src'
+Makefile:392: recipe for target 'all-recursive' failed
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory '/home/reza/sim/Shoot1Zarb/monitor'
+Makefile:333: recipe for target 'all' failed
+make: *** [all] Error 2
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get install libfontconfig1-dev
+...
+reza@reza:~/sim/Shoot1Zarb$ ./challengeSet 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for cos in -lm... yes
+checking for deflate in -lz... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inline... inline
+checking for an ANSI C-conforming const... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for error_at_line... yes
+checking for memset... yes
+checking for rint... yes
+checking for strtol... yes
+checking for pow... yes
+checking for sqrt... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for boostlib >= 1.32.0... yes
+checking whether the Boost::System library is available... yes
+checking for exit in -lboost_system... yes
+checking whether the Boost::Program_Options library is available... yes
+checking for exit in -lboost_program_options... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+configure: set QT4_REQUIRED_VERSION... 4.3.0
+configure: set QT4_REQUIRED_MODULES... QtCore QtGui QtNetwork
+checking for pkg-config... /usr/bin/pkg-config
+configure: check QtCore >= 4.3.0
+checking for Qt4... yes
+configure: check QtGui >= 4.3.0
+checking for Qt4... yes
+configure: check QtNetwork >= 4.3.0
+checking for Qt4... yes
+configure: set QT4_CXXFLAGS... -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore
+configure: set QT4_LDFLAGS... -L/usr/X11R6/lib64
+configure: set QT4_LDADD... -pthread -lQtGui -lQtCore -lfontconfig -lpthread -laudio -lXt -lgthread-2.0 -lglib-2.0 -lpng -lz -lfreetype -lgobject-2.0 -lglib-2.0 -lSM -lICE -lXi -lXrender -lfontconfig -lfreetype -lXext -lX11 -lm -lQtNetwork -lQtCore -lfontconfig -lpthread -lz -lQtCore -lfontconfig -lpthread -lz -lm -ldl -lgthread-2.0 -lglib-2.0 -lrt
+configure: set QT4_MOC... /usr/share/qt4/bin/moc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory '/home/reza/sim/Shoot1Zarb/monitor'
+Making all in src
+make[2]: Entering directory '/home/reza/sim/Shoot1Zarb/monitor/src'
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcsslogplayer/rcssmonitor-parser.o -MD -MP -MF rcsslogplayer/.deps/rcssmonitor-parser.Tpo -c -o rcsslogplayer/rcssmonitor-parser.o `test -f 'rcsslogplayer/parser.cpp' || echo './'`rcsslogplayer/parser.cpp
+mv -f rcsslogplayer/.deps/rcssmonitor-parser.Tpo rcsslogplayer/.deps/rcssmonitor-parser.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcsslogplayer/rcssmonitor-types.o -MD -MP -MF rcsslogplayer/.deps/rcssmonitor-types.Tpo -c -o rcsslogplayer/rcssmonitor-types.o `test -f 'rcsslogplayer/types.cpp' || echo './'`rcsslogplayer/types.cpp
+mv -f rcsslogplayer/.deps/rcssmonitor-types.Tpo rcsslogplayer/.deps/rcssmonitor-types.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcsslogplayer/rcssmonitor-util.o -MD -MP -MF rcsslogplayer/.deps/rcssmonitor-util.Tpo -c -o rcsslogplayer/rcssmonitor-util.o `test -f 'rcsslogplayer/util.cpp' || echo './'`rcsslogplayer/util.cpp
+mv -f rcsslogplayer/.deps/rcssmonitor-util.Tpo rcsslogplayer/.deps/rcssmonitor-util.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-angle_deg.o -MD -MP -MF .deps/rcssmonitor-angle_deg.Tpo -c -o rcssmonitor-angle_deg.o `test -f 'angle_deg.cpp' || echo './'`angle_deg.cpp
+mv -f .deps/rcssmonitor-angle_deg.Tpo .deps/rcssmonitor-angle_deg.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-ball_painter.o -MD -MP -MF .deps/rcssmonitor-ball_painter.Tpo -c -o rcssmonitor-ball_painter.o `test -f 'ball_painter.cpp' || echo './'`ball_painter.cpp
+mv -f .deps/rcssmonitor-ball_painter.Tpo .deps/rcssmonitor-ball_painter.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-circle_2d.o -MD -MP -MF .deps/rcssmonitor-circle_2d.Tpo -c -o rcssmonitor-circle_2d.o `test -f 'circle_2d.cpp' || echo './'`circle_2d.cpp
+mv -f .deps/rcssmonitor-circle_2d.Tpo .deps/rcssmonitor-circle_2d.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-config_dialog.o -MD -MP -MF .deps/rcssmonitor-config_dialog.Tpo -c -o rcssmonitor-config_dialog.o `test -f 'config_dialog.cpp' || echo './'`config_dialog.cpp
+mv -f .deps/rcssmonitor-config_dialog.Tpo .deps/rcssmonitor-config_dialog.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-disp_holder.o -MD -MP -MF .deps/rcssmonitor-disp_holder.Tpo -c -o rcssmonitor-disp_holder.o `test -f 'disp_holder.cpp' || echo './'`disp_holder.cpp
+mv -f .deps/rcssmonitor-disp_holder.Tpo .deps/rcssmonitor-disp_holder.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-draw_info_painter.o -MD -MP -MF .deps/rcssmonitor-draw_info_painter.Tpo -c -o rcssmonitor-draw_info_painter.o `test -f 'draw_info_painter.cpp' || echo './'`draw_info_painter.cpp
+mv -f .deps/rcssmonitor-draw_info_painter.Tpo .deps/rcssmonitor-draw_info_painter.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-field_canvas.o -MD -MP -MF .deps/rcssmonitor-field_canvas.Tpo -c -o rcssmonitor-field_canvas.o `test -f 'field_canvas.cpp' || echo './'`field_canvas.cpp
+mv -f .deps/rcssmonitor-field_canvas.Tpo .deps/rcssmonitor-field_canvas.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-field_painter.o -MD -MP -MF .deps/rcssmonitor-field_painter.Tpo -c -o rcssmonitor-field_painter.o `test -f 'field_painter.cpp' || echo './'`field_painter.cpp
+mv -f .deps/rcssmonitor-field_painter.Tpo .deps/rcssmonitor-field_painter.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-line_2d.o -MD -MP -MF .deps/rcssmonitor-line_2d.Tpo -c -o rcssmonitor-line_2d.o `test -f 'line_2d.cpp' || echo './'`line_2d.cpp
+mv -f .deps/rcssmonitor-line_2d.Tpo .deps/rcssmonitor-line_2d.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-log_player.o -MD -MP -MF .deps/rcssmonitor-log_player.Tpo -c -o rcssmonitor-log_player.o `test -f 'log_player.cpp' || echo './'`log_player.cpp
+mv -f .deps/rcssmonitor-log_player.Tpo .deps/rcssmonitor-log_player.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-main_window.o -MD -MP -MF .deps/rcssmonitor-main_window.Tpo -c -o rcssmonitor-main_window.o `test -f 'main_window.cpp' || echo './'`main_window.cpp
+mv -f .deps/rcssmonitor-main_window.Tpo .deps/rcssmonitor-main_window.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-monitor_client.o -MD -MP -MF .deps/rcssmonitor-monitor_client.Tpo -c -o rcssmonitor-monitor_client.o `test -f 'monitor_client.cpp' || echo './'`monitor_client.cpp
+mv -f .deps/rcssmonitor-monitor_client.Tpo .deps/rcssmonitor-monitor_client.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-options.o -MD -MP -MF .deps/rcssmonitor-options.Tpo -c -o rcssmonitor-options.o `test -f 'options.cpp' || echo './'`options.cpp
+mv -f .deps/rcssmonitor-options.Tpo .deps/rcssmonitor-options.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-player_painter.o -MD -MP -MF .deps/rcssmonitor-player_painter.Tpo -c -o rcssmonitor-player_painter.o `test -f 'player_painter.cpp' || echo './'`player_painter.cpp
+mv -f .deps/rcssmonitor-player_painter.Tpo .deps/rcssmonitor-player_painter.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-player_type_dialog.o -MD -MP -MF .deps/rcssmonitor-player_type_dialog.Tpo -c -o rcssmonitor-player_type_dialog.o `test -f 'player_type_dialog.cpp' || echo './'`player_type_dialog.cpp
+mv -f .deps/rcssmonitor-player_type_dialog.Tpo .deps/rcssmonitor-player_type_dialog.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-score_board_painter.o -MD -MP -MF .deps/rcssmonitor-score_board_painter.Tpo -c -o rcssmonitor-score_board_painter.o `test -f 'score_board_painter.cpp' || echo './'`score_board_painter.cpp
+mv -f .deps/rcssmonitor-score_board_painter.Tpo .deps/rcssmonitor-score_board_painter.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-team_graphic.o -MD -MP -MF .deps/rcssmonitor-team_graphic.Tpo -c -o rcssmonitor-team_graphic.o `test -f 'team_graphic.cpp' || echo './'`team_graphic.cpp
+mv -f .deps/rcssmonitor-team_graphic.Tpo .deps/rcssmonitor-team_graphic.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-team_graphic_painter.o -MD -MP -MF .deps/rcssmonitor-team_graphic_painter.Tpo -c -o rcssmonitor-team_graphic_painter.o `test -f 'team_graphic_painter.cpp' || echo './'`team_graphic_painter.cpp
+mv -f .deps/rcssmonitor-team_graphic_painter.Tpo .deps/rcssmonitor-team_graphic_painter.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-vector_2d.o -MD -MP -MF .deps/rcssmonitor-vector_2d.Tpo -c -o rcssmonitor-vector_2d.o `test -f 'vector_2d.cpp' || echo './'`vector_2d.cpp
+mv -f .deps/rcssmonitor-vector_2d.Tpo .deps/rcssmonitor-vector_2d.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I.. -I../src  -I/usr/include -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -MT rcssmonitor-main.o -MD -MP -MF .deps/rcssmonitor-main.Tpo -c -o rcssmonitor-main.o `test -f 'main.cpp' || echo './'`main.cpp
+mv -f .deps/rcssmonitor-main.Tpo .deps/rcssmonitor-main.Po
+g++ -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -L/usr/X11R6/lib64 -L/usr/lib/x86_64-linux-gnu -o rcssmonitor rcsslogplayer/rcssmonitor-parser.o rcsslogplayer/rcssmonitor-types.o rcsslogplayer/rcssmonitor-util.o rcssmonitor-angle_deg.o rcssmonitor-ball_painter.o rcssmonitor-circle_2d.o rcssmonitor-config_dialog.o rcssmonitor-disp_holder.o rcssmonitor-draw_info_painter.o rcssmonitor-field_canvas.o rcssmonitor-field_painter.o rcssmonitor-line_2d.o rcssmonitor-log_player.o rcssmonitor-main_window.o rcssmonitor-monitor_client.o rcssmonitor-options.o rcssmonitor-player_painter.o rcssmonitor-player_type_dialog.o rcssmonitor-score_board_painter.o rcssmonitor-team_graphic.o rcssmonitor-team_graphic_painter.o rcssmonitor-vector_2d.o rcssmonitor-main.o rcssmonitor-moc_config_dialog.o rcssmonitor-moc_field_canvas.o rcssmonitor-moc_log_player.o rcssmonitor-moc_main_window.o rcssmonitor-moc_monitor_client.o rcssmonitor-moc_player_type_dialog.o -lboost_program_options -pthread -lQtGui -lQtCore -lfontconfig -lpthread -laudio -lXt -lgthread-2.0 -lglib-2.0 -lpng -lz -lfreetype -lgobject-2.0 -lglib-2.0 -lSM -lICE -lXi -lXrender -lfontconfig -lfreetype -lXext -lX11 -lm -lQtNetwork -lQtCore -lfontconfig -lpthread -lz -lQtCore -lfontconfig -lpthread -lz -lm -ldl -lgthread-2.0 -lglib-2.0 -lrt -lz -lm 
+/usr/bin/ld: cannot find -laudio
+/usr/bin/ld: cannot find -lXt
+/usr/bin/ld: cannot find -lgthread-2.0
+/usr/bin/ld: cannot find -lglib-2.0
+/usr/bin/ld: cannot find -lgobject-2.0
+/usr/bin/ld: cannot find -lglib-2.0
+/usr/bin/ld: cannot find -lSM
+/usr/bin/ld: cannot find -lICE
+/usr/bin/ld: cannot find -lXi
+/usr/bin/ld: cannot find -lXrender
+collect2: error: ld returned 1 exit status
+Makefile:488: recipe for target 'rcssmonitor' failed
+make[2]: *** [rcssmonitor] Error 1
+make[2]: Leaving directory '/home/reza/sim/Shoot1Zarb/monitor/src'
+Makefile:392: recipe for target 'all-recursive' failed
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory '/home/reza/sim/Shoot1Zarb/monitor'
+Makefile:333: recipe for target 'all' failed
+make: *** [all] Error 2
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get install libaudio-dev
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get install libxt-dev 
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get install libglib2.0-dev
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get install libxrender-dev 
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get install libxi-dev 
+reza@reza:~/sim/Shoot1Zarb$ ./challengeSet 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for cos in -lm... yes
+checking for deflate in -lz... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inline... inline
+checking for an ANSI C-conforming const... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for error_at_line... yes
+checking for memset... yes
+checking for rint... yes
+checking for strtol... yes
+checking for pow... yes
+checking for sqrt... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for boostlib >= 1.32.0... yes
+checking whether the Boost::System library is available... yes
+checking for exit in -lboost_system... yes
+checking whether the Boost::Program_Options library is available... yes
+checking for exit in -lboost_program_options... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+configure: set QT4_REQUIRED_VERSION... 4.3.0
+configure: set QT4_REQUIRED_MODULES... QtCore QtGui QtNetwork
+checking for pkg-config... /usr/bin/pkg-config
+configure: check QtCore >= 4.3.0
+checking for Qt4... yes
+configure: check QtGui >= 4.3.0
+checking for Qt4... yes
+configure: check QtNetwork >= 4.3.0
+checking for Qt4... yes
+configure: set QT4_CXXFLAGS... -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore
+configure: set QT4_LDFLAGS... -L/usr/X11R6/lib64
+configure: set QT4_LDADD... -pthread -lQtGui -lQtCore -lfontconfig -lpthread -laudio -lXt -lgthread-2.0 -lglib-2.0 -lpng -lz -lfreetype -lgobject-2.0 -lglib-2.0 -lSM -lICE -lXi -lXrender -lfontconfig -lfreetype -lXext -lX11 -lm -lQtNetwork -lQtCore -lfontconfig -lpthread -lz -lQtCore -lfontconfig -lpthread -lz -lm -ldl -lgthread-2.0 -lglib-2.0 -lrt
+configure: set QT4_MOC... /usr/share/qt4/bin/moc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory '/home/reza/sim/Shoot1Zarb/monitor'
+Making all in src
+make[2]: Entering directory '/home/reza/sim/Shoot1Zarb/monitor/src'
+g++ -W -Wall -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore -g -O2 -L/usr/X11R6/lib64 -L/usr/lib/x86_64-linux-gnu -o rcssmonitor rcsslogplayer/rcssmonitor-parser.o rcsslogplayer/rcssmonitor-types.o rcsslogplayer/rcssmonitor-util.o rcssmonitor-angle_deg.o rcssmonitor-ball_painter.o rcssmonitor-circle_2d.o rcssmonitor-config_dialog.o rcssmonitor-disp_holder.o rcssmonitor-draw_info_painter.o rcssmonitor-field_canvas.o rcssmonitor-field_painter.o rcssmonitor-line_2d.o rcssmonitor-log_player.o rcssmonitor-main_window.o rcssmonitor-monitor_client.o rcssmonitor-options.o rcssmonitor-player_painter.o rcssmonitor-player_type_dialog.o rcssmonitor-score_board_painter.o rcssmonitor-team_graphic.o rcssmonitor-team_graphic_painter.o rcssmonitor-vector_2d.o rcssmonitor-main.o rcssmonitor-moc_config_dialog.o rcssmonitor-moc_field_canvas.o rcssmonitor-moc_log_player.o rcssmonitor-moc_main_window.o rcssmonitor-moc_monitor_client.o rcssmonitor-moc_player_type_dialog.o -lboost_program_options -pthread -lQtGui -lQtCore -lfontconfig -lpthread -laudio -lXt -lgthread-2.0 -lglib-2.0 -lpng -lz -lfreetype -lgobject-2.0 -lglib-2.0 -lSM -lICE -lXi -lXrender -lfontconfig -lfreetype -lXext -lX11 -lm -lQtNetwork -lQtCore -lfontconfig -lpthread -lz -lQtCore -lfontconfig -lpthread -lz -lm -ldl -lgthread-2.0 -lglib-2.0 -lrt -lz -lm 
+make[2]: Leaving directory '/home/reza/sim/Shoot1Zarb/monitor/src'
+Making all in .
+make[2]: Entering directory '/home/reza/sim/Shoot1Zarb/monitor'
+make[2]: Leaving directory '/home/reza/sim/Shoot1Zarb/monitor'
+make[1]: Leaving directory '/home/reza/sim/Shoot1Zarb/monitor'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gawk... (cached) mawk
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for cos in -lm... yes
+checking for deflate in -lz... yes
+checking whether the compiler implements namespaces... yes
+checking whether the compiler has stringstream... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for ANSI C header files... (cached) yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for libintl.h... (cached) yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int8_t... yes
+checking for size_t... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint8_t... yes
+checking for socklen_t... yes
+checking for size_t... (cached) yes
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking return type of signal handlers... void
+checking for strftime... yes
+checking for memset... yes
+checking for floor... yes
+checking for gethostbyname... yes
+checking for gettimeofday... yes
+checking for inet_ntoa... yes
+checking for memset... (cached) yes
+checking for mkdir... yes
+checking for pow... yes
+checking for rint... yes
+checking for socket... yes
+checking for sqrt... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for flex... no
+checking for lex... no
+checking if flex is the lexer generator... no
+configure: error: 
+    `flex' is missing on your system.  Please install it first.
+reza@reza:~/sim/Shoot1Zarb$ sudo apt-get install flex bison
+reza@reza:~/sim/Shoot1Zarb$ ./challengeSet 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for cos in -lm... yes
+checking for deflate in -lz... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inline... inline
+checking for an ANSI C-conforming const... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for error_at_line... yes
+checking for memset... yes
+checking for rint... yes
+checking for strtol... yes
+checking for pow... yes
+checking for sqrt... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for boostlib >= 1.32.0... yes
+checking whether the Boost::System library is available... yes
+checking for exit in -lboost_system... yes
+checking whether the Boost::Program_Options library is available... yes
+checking for exit in -lboost_program_options... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+configure: set QT4_REQUIRED_VERSION... 4.3.0
+configure: set QT4_REQUIRED_MODULES... QtCore QtGui QtNetwork
+checking for pkg-config... /usr/bin/pkg-config
+configure: check QtCore >= 4.3.0
+checking for Qt4... yes
+configure: check QtGui >= 4.3.0
+checking for Qt4... yes
+configure: check QtNetwork >= 4.3.0
+checking for Qt4... yes
+configure: set QT4_CXXFLAGS... -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I/usr/include/qt4/QtNetwork -I/usr/include/qt4 -I/usr/include/qt4/QtCore
+configure: set QT4_LDFLAGS... -L/usr/X11R6/lib64
+configure: set QT4_LDADD... -pthread -lQtGui -lQtCore -lfontconfig -lpthread -laudio -lXt -lgthread-2.0 -lglib-2.0 -lpng -lz -lfreetype -lgobject-2.0 -lglib-2.0 -lSM -lICE -lXi -lXrender -lfontconfig -lfreetype -lXext -lX11 -lm -lQtNetwork -lQtCore -lfontconfig -lpthread -lz -lQtCore -lfontconfig -lpthread -lz -lm -ldl -lgthread-2.0 -lglib-2.0 -lrt
+configure: set QT4_MOC... /usr/share/qt4/bin/moc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory '/home/reza/sim/Shoot1Zarb/monitor'
+Making all in src
+make[2]: Entering directory '/home/reza/sim/Shoot1Zarb/monitor/src'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/reza/sim/Shoot1Zarb/monitor/src'
+Making all in .
+make[2]: Entering directory '/home/reza/sim/Shoot1Zarb/monitor'
+make[2]: Leaving directory '/home/reza/sim/Shoot1Zarb/monitor'
+make[1]: Leaving directory '/home/reza/sim/Shoot1Zarb/monitor'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gawk... (cached) mawk
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for cos in -lm... yes
+checking for deflate in -lz... yes
+checking whether the compiler implements namespaces... yes
+checking whether the compiler has stringstream... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for ANSI C header files... (cached) yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for libintl.h... (cached) yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int8_t... yes
+checking for size_t... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint8_t... yes
+checking for socklen_t... yes
+checking for size_t... (cached) yes
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking return type of signal handlers... void
+checking for strftime... yes
+checking for memset... yes
+checking for floor... yes
+checking for gethostbyname... yes
+checking for gettimeofday... yes
+checking for inet_ntoa... yes
+checking for memset... (cached) yes
+checking for mkdir... yes
+checking for pow... yes
+checking for rint... yes
+checking for socket... yes
+checking for sqrt... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking if flex is the lexer generator... yes
+checking for bison... bison -y
+checking if bison is the parser generator... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for boostlib >= 1.32.0... yes
+checking whether the Boost::System library is available... yes
+checking for exit in -lboost_system... yes
+checking whether the Boost::Filesystem library is available... yes
+checking for exit in -lboost_filesystem... no
+configure: error: Could not link against boost_filesystem !
+reza@reza:~/sim/Shoot1Zarb$ 
+

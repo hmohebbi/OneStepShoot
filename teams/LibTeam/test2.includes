@@ -1,0 +1,17 @@
+example
+rcsc
+rcsc/action
+rcsc/ann
+rcsc/coach
+rcsc/common
+rcsc/formation
+rcsc/geom
+rcsc/geom/triangle
+rcsc/gz
+rcsc/monitor
+rcsc/net
+rcsc/param
+rcsc/player
+rcsc/rcg
+rcsc/time
+rcsc/trainer
