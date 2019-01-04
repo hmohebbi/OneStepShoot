@@ -13,11 +13,10 @@ Ferdowsi University of Mashhad
 
 
 
-
-contact with us:
-
-nexus.um.ac.ir
+contact with TAs:
 
 Hosein Mohebbi: Hosein.mohebbi75@gmail.com
 
 Reza Etemadi:  rza.ete@gmail.com
+
+nexus.um.ac.ir
